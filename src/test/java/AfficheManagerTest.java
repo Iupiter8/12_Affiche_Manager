@@ -107,7 +107,7 @@ public class AfficheManagerTest {
     }
 
     @Test
-    public void showReverseLimit() {
+    public void showReverseLastForUnderLimit() {
         AfficheManager manager = new AfficheManager();
         manager.add("kino1");
         manager.add("kino2");
