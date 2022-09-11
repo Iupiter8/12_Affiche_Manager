@@ -100,7 +100,7 @@ public class AfficheManagerTest {
         manager.add("kino10");
         manager.add("kino11");
 
-        String[] expected = {"kino11","kino10", "kino9", "kino8","kino7", "kino6", "kino5","kino4", "kino3", "kino2"};
+        String[] expected = {"kino11", "kino10", "kino9", "kino8", "kino7", "kino6", "kino5", "kino4", "kino3", "kino2"};
         String[] actual = manager.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
@@ -121,7 +121,7 @@ public class AfficheManagerTest {
         manager.add("kino10");
         manager.add("kino11");
 
-        String[] expected = {"kino11","kino10", "kino9", "kino8","kino7", "kino6", "kino5","kino4", "kino3", "kino2"};
+        String[] expected = {"kino11", "kino10", "kino9", "kino8", "kino7", "kino6", "kino5", "kino4", "kino3", "kino2"};
         String[] actual = manager.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
